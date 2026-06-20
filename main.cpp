@@ -2,6 +2,11 @@
 using namespace std;
 
 int main() {
-    cout << "Hello DSA!" << endl;
+    int x;
+    cout << "Enter a number: ";
+    cin >> x;
+
+    cout << "The value of x is: " << x << endl;
+
     return 0;
 }
