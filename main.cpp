@@ -2,18 +2,14 @@
 using namespace std;
 
 int main() {
-    int mark;
-    cin >> mark;
-    if (mark >= 90) {
-        cout << "A" << endl;
-    } else if (mark >= 80) {
-        cout << "B" << endl;
-    } else if (mark >= 70) {
-        cout << "C" << endl;
-    } else if (mark >= 60) {
-        cout << "D" << endl;
+    int age;
+    cin >> age;
+    if (age < 18) {
+        cout << "you're eligible for the job" << endl;
+    } else if (age >= 18 && age < 65) {
+        cout << "you're eligible for the job but retirement soon" << endl;
     } else {
-        cout << "F" << endl;
-    } 
+        cout << "retirement time" << endl;
+    }
     return 0;
 }
